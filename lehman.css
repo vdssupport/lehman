@@ -3,7 +3,7 @@
 {{Color_1_Shade}}: #0a1964; (goto http://www.color-hex.com/color/0d207e ; use the second Shade -- just needs to be a little bit darker.)
 {{Color_2}}: 65a326
 {{Color_2_Tint}}: #e0ecd3; (goto http://www.color-hex.com/color/65a326 ; find the color similar to e_e_e_) (Make sure this color is accessible by going to http://accessible-colors.com and checking Color_2_Tint on a background of both Color_1 and Color_2; select the suggested text color that works for both backgrounds)
-{{Logo_URL}}: sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png
+{{Logo_URL}}: vdssupport.github.io/lehman/lehman-logo-266x80.png
  i.e. www.wingate.edu/wp-content/uploads/2015/06/logo.png
 */
 
@@ -25,7 +25,7 @@ header.header-main {
 }
 
 .logo {
-  background: url('//sharptopco.github.io/cloudcard-custom-assets/organizations/lehman/lehman-logo-266x80.png') top center no-repeat;
+  background: url('//vdssupport.github.io/lehman/lehman-logo-266x80.png') top center no-repeat;
   display: inline-block;
   max-width: 400px !important;
   background-size: contain;
@@ -146,14 +146,16 @@ table td {
     background: #0d207e;
 }
 
+a.sign-out {
+	display: none;
+}
+
+
 /* Uncomment this block if the organization has a Plus Account.
 img.photos--preview {
     border-bottom: 0px;
 }
 
-a.sign-out {
-	display: none;
-}
 
 
 */
